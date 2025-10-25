@@ -1,2 +1,3 @@
-# SIF-STOCK
-Sistema de inventario S.I.F-STOCK
+# S.I.F-STOCK
+Sistema de inventario simple con login y registro.
+Tecnologías: PHP, MySQL, HTML, CSS, JS
