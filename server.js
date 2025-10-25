@@ -1,16 +1,15 @@
-const express = require("express");
-const path = require("path");
+// server.js
+const express = require('express');
 const app = express();
-
-// Puerto de Render
 const PORT = process.env.PORT || 3000;
 
-// Carpeta de archivos estáticos
-app.use(express.static(path.join(__dirname, "public")));
+// Middleware para parsear JSON y formularios
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// Rutas
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+// Ruta principal
+app.get('/', (req, res) => {
+  res.send('Hola, SIF-STOCK está corriendo!');
 });
 
 // Iniciar servidor
