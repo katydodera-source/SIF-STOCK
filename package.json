@@ -1,0 +1,24 @@
+{
+  "name": "sif-stock",
+  "version": "1.0.0",
+  "description": "Sistema de inventario simple con login y registro. Tecnologías: PHP, MySQL, HTML, CSS, JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katydodera-source/SIF-STOCK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/katydodera-source/SIF-STOCK/issues"
+  },
+  "homepage": "https://github.com/katydodera-source/SIF-STOCK#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
